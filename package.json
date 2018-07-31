@@ -2,7 +2,7 @@
   "name": "contactmanager",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Pavel-Rogovin.github.io/contactmanager",
+  "homepage": "https://Rogovin-Pavel.github.io/contactmanager",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.2",
