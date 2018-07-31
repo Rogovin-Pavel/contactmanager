@@ -1,8 +1,8 @@
 {
   "name": "contactmanager",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "https://pavel-rogovin.github.io/contactmanager",
+  "homepage": "https://Pavel-Rogovin.github.io/contactmanager",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.2",
@@ -14,10 +14,13 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
